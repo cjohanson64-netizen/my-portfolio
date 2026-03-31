@@ -1,0 +1,43 @@
+:root {
+  /* ===== Background ===== */
+
+  --color-bg: linear-gradient(#110022, #330066);
+  --color-surface: rgba(255, 255, 255, 0.05);
+  --color-card: rgba(255, 255, 255, 0.08);
+
+  /* ===== Text ===== */
+
+  --color-text: #ffffff;
+  --color-muted: rgba(255, 255, 255, 0.7);
+
+  /* ===== Borders ===== */
+
+  --color-border: rgba(255, 255, 255, 0.15);
+
+  /* ===== Primary (accent) ===== */
+
+  --color-primary: #a78bfa;
+  --color-primary-hover: #c4b5fd;
+
+  /* ===== Status ===== */
+
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+
+  /* ===== Typography ===== */
+
+  --font-base: Arial, Helvetica, sans-serif;
+
+  /* ===== Spacing ===== */
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  /* ===== Layout ===== */
+
+  --max-width: 1100px;
+}
