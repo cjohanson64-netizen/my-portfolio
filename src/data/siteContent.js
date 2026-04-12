@@ -5,11 +5,11 @@ const siteContent = {
   },
 
   hero: {
-    eyebrow: "Carl Johanson",
+    eyebrow: "Carl Biggers-Johanson",
     title:
-      "Software engineer building structured, reliable, and user-facing systems",
+      "Frontend-leaning full-stack engineer building polished, user-facing products",
     description:
-      "I build full-stack applications, interactive tools, and structured software systems with a focus on clarity, maintainability, and real-world usability.",
+      "I build applications that translate complex workflows into clear, intuitive user experiences. My work spans React frontends, backend services, and structured systems designed for usability, reliability, and rapid iteration.",
     primaryCta: {
       label: "View Projects",
       href: "/projects",
@@ -21,47 +21,47 @@ const siteContent = {
   },
 
   homeIntro: {
-    heading: "How I approach engineering",
+    heading: "How I build",
     paragraphs: [
-      "I design software by translating complex workflows into structured, maintainable systems. My work spans frontend interfaces, backend services, and the architecture that connects them.",
-      "With a background in education and learning systems, I bring a strong instinct for clarity, observability, iteration, and continuous improvement — all of which directly shape how I build reliable products.",
+      "I design software by turning complex workflows into structured, maintainable products that people can actually use. My work spans frontend interfaces, backend services, and the architecture that connects them.",
+      "Before transitioning into software, I spent 12 years in education designing curriculum and learning systems. That experience sharpened the instincts I bring to engineering today: clarity, iteration, communication, and building tools that serve real users in real conditions.",
     ],
   },
 
   strengths: [
     {
-      title: "Systems thinking",
+      title: "Product-minded systems thinking",
       description:
-        "I focus on structure, boundaries, and predictable behavior so software stays maintainable as it grows.",
+        "I design applications with clear structure, strong boundaries, and maintainable logic so they stay understandable as features grow.",
     },
     {
-      title: "Reliability-minded development",
+      title: "User-centered engineering",
       description:
-        "I care about stable workflows, clear data flow, debugging discipline, and reducing failure points across systems.",
+        "I focus on building software that is not just functional, but intuitive, usable, and aligned with the needs of the people using it.",
     },
     {
-      title: "Frontend and backend perspective",
+      title: "End-to-end development",
       description:
-        "I enjoy building complete application flows, from user-facing interfaces to the services and logic that support them.",
+        "I enjoy building complete product flows, from responsive frontend interfaces to backend services, application logic, and data modeling.",
     },
     {
-      title: "Iterative problem-solving",
+      title: "Iterative execution",
       description:
-        "My process is shaped by observation, feedback, and refinement — improving systems over time rather than treating them as static.",
+        "I work through observation, feedback, and refinement, using fast iteration to improve both the product experience and the systems underneath it.",
     },
   ],
 
   about: {
     heading: "About Me",
     intro:
-      "I’m a software engineer with a background in education, learning systems, and interactive product design.",
+      "I’m a frontend-leaning full-stack engineer with a background in education, learning systems, and interactive product design.",
     paragraphs: [
-      "My path into software grew out of building tools to solve real problems. Over time, that work expanded into a broader focus on application architecture, system design, and reliable user-facing software.",
-      "I’m especially interested in how complex workflows can be translated into structured systems that remain clear, maintainable, and useful. That includes frontend interfaces, backend services, and the logic that holds them together.",
-      "My years in education sharpened skills that continue to strengthen my engineering work: observability, communication, iteration, and the ability to design systems that work for real people under real conditions.",
+      "My path into software began by building tools to solve practical problems in teaching and learning. Over time, that grew into a deeper focus on product engineering, application architecture, and the systems that support reliable user experiences.",
+      "I’m especially interested in building software that makes complexity feel clear. That includes designing frontend experiences, shaping backend logic, and creating structure that keeps applications scalable and maintainable over time.",
+      "My years in education continue to strengthen my engineering work. They taught me how to communicate clearly, iterate quickly, design for real users, and build systems that hold up under real-world conditions.",
     ],
     currentFocus:
-      "Right now, I’m building full-stack applications, structured software systems, and interactive tools while pursuing software engineering opportunities where I can contribute strong systems thinking, practical development skills, and a reliability-minded approach.",
+      "Right now, I’m focused on building full-stack and frontend-heavy applications while pursuing software engineering opportunities where I can contribute strong product thinking, structured development, and a user-centered approach to complex systems.",
   },
 
   contact: {

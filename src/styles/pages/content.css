@@ -13,6 +13,22 @@
   min-width: 0;
 }
 
+.about-copy-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.about-copy-column > .section-heading {
+  margin-bottom: 0;
+}
+
+.resume-top-copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
 .profile-image-shell {
   display: flex;
   justify-content: center;
@@ -83,6 +99,12 @@
 .resume-section h2 {
   margin-top: 0;
   margin-bottom: var(--space-sm);
+}
+
+.resume-identity {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
 .resume-identity h2 {

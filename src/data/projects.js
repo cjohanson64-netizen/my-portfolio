@@ -7,19 +7,26 @@ const projects = [
     featured: true,
     status: "In Progress",
     year: "2026",
-    tagline: "A classroom-driven sight-singing generator designed for real musical learning.",
+
+    tagline:
+      "An interactive sight-singing platform for generation, practice, and real-time feedback.",
+
     shortDescription:
-      "A music literacy app that generates sight-singing exercises for students and helps teachers create targeted practice material based on real classroom needs.",
+      "SightLine is a full-stack music learning application that generates targeted sight-singing exercises, captures student performance via microphone input, and provides structured feedback through pitch detection and scoring. It helps teachers reduce prep time while enabling students to practice and improve independently.",
+
     techStack: ["React", "Vite", "JavaScript", "CSS", "Supabase"],
+
     highlights: [
-      "Built from direct classroom experience and real rehearsal needs.",
-      "Designed to generate focused sight-singing practice for students.",
-      "Explores assessment and instructional utility beyond typical drill tools.",
+      "Built a multi-pass melody generation engine that produces structured exercises aligned to musical concepts.",
+      "Implemented microphone-based pitch detection and performance alignment for real-time assessment.",
+      "Designed a feedback and scoring system to evaluate accuracy and guide student improvement.",
+      "Bridges generation, performance capture, and evaluation into a single learning loop.",
     ],
+
     githubUrl: "https://github.com/cjohanson64-netizen/SightLine",
     liveUrl: "https://sight-line-topaz.vercel.app/",
     image: "/images/projects/sightline.png",
-    alt: "SightLine interface showing generated sight-singing practice material.",
+    alt: "SightLine interface showing generated sight-singing practice material with interactive feedback.",
   },
   {
     id: "tryangletree-dsl",
@@ -29,9 +36,10 @@ const projects = [
     featured: true,
     status: "In Progress",
     year: "2026",
-    tagline: "A custom semantic graph language for structuring application logic before rendering.",
+    tagline:
+      "A custom graph-based language for structuring application logic before it reaches the UI.",
     shortDescription:
-      "A custom language and runtime for modeling nodes, relationships, state, and projections so applications can be built from explicit structure rather than scattered logic.",
+      "TryAngleTree DSL is a custom language and runtime for modeling nodes, relationships, state, and projections so application behavior can be defined through explicit structure rather than scattered logic.",
     techStack: [
       "JavaScript",
       "DSL Design",
@@ -40,9 +48,9 @@ const projects = [
       "React",
     ],
     highlights: [
-      "Separates semantics from rendering to make app structure more explicit.",
-      "Supports graph mutation, projection, and contextual relationships.",
-      "Acts as a structural layer between data modeling and UI behavior.",
+      "Separates application semantics from rendering to make logic more explicit and maintainable.",
+      "Supports graph mutation, projection, and contextual relationships within a structured runtime.",
+      "Acts as an architectural layer between data modeling, application behavior, and UI output.",
     ],
     githubUrl: "https://github.com/cjohanson64-netizen/TryAngleTree-DSL",
     liveUrl: "",
@@ -57,14 +65,15 @@ const projects = [
     featured: true,
     status: "Prototype",
     year: "2026",
-    tagline: "A structured inventory system exploring time, usage, and decision modeling.",
+    tagline:
+      "An inventory and planning app that models household usage, timing, and decision flow.",
     shortDescription:
-      "An experimental app that models household inventory and usage over time, exploring structured systems for prediction, organization, and practical decision-making.",
+      "PredictivePantry is a React-based inventory application that explores how household supplies can be tracked as a structured system over time, helping users organize items, anticipate needs, and make more informed planning decisions.",
     techStack: ["React", "JavaScript", "CSS", "Data Modeling", "TAT"],
     highlights: [
-      "Explores inventory as a structured system rather than a flat item list.",
-      "Designed as a proving ground for semantic modeling concepts.",
-      "Connects practical household use cases with broader systems thinking.",
+      "Models inventory as a structured system rather than a flat list of items.",
+      "Explores time, usage, and decision-making within a practical household workflow.",
+      "Serves as a proving ground for semantic modeling concepts in a real user-facing context.",
     ],
     githubUrl: "https://github.com/cjohanson64-netizen/PredictivePantry",
     liveUrl: "https://predictive-pantry.vercel.app/",
@@ -79,14 +88,15 @@ const projects = [
     featured: false,
     status: "Prototype",
     year: "2026",
-    tagline: "A practical routing and organization tool designed for real-life coordination.",
+    tagline:
+      "A route planning and coordination tool built to simplify everyday logistics.",
     shortDescription:
-      "A practical application for organizing and managing routes, built to simplify real-world coordination, planning, and everyday logistical flow.",
+      "FamilyRoutes is a practical planning application designed to help users organize routes, coordinate recurring travel needs, and reduce friction in day-to-day logistical decision-making.",
     techStack: ["React", "JavaScript", "CSS", "Routing Logic"],
     highlights: [
-      "Focused on solving a real-life coordination problem.",
-      "Built around usability and practical workflow organization.",
-      "Demonstrates applied interface design for everyday needs.",
+      "Built around a real-world coordination problem with practical user value.",
+      "Focused on usability, clarity, and workflow organization.",
+      "Demonstrates applied interface design for everyday planning needs.",
     ],
     githubUrl: "https://github.com/cjohanson64-netizen/FamilyRoutes",
     liveUrl: "https://family-routes.vercel.app/",
@@ -101,14 +111,15 @@ const projects = [
     featured: false,
     status: "Prototype",
     year: "2026",
-    tagline: "A lightweight learning management system built around structured content and user flow.",
+    tagline:
+      "A lightweight learning management system focused on structured content and clear user flow.",
     shortDescription:
-      "A simplified learning management system demonstrating structured content delivery, educational interface design, and clear user-facing learning flows.",
+      "LMSDemo is a simplified learning management system built to demonstrate structured content delivery, educational UX, and user-facing workflows that support clear navigation and learning progression.",
     techStack: ["React", "JavaScript", "CSS", "Educational UX"],
     highlights: [
-      "Built from authentic experience with learning platforms and instruction.",
-      "Explores clean content organization and student-facing workflows.",
-      "Shows how teaching experience informs software design decisions.",
+      "Built from direct experience with classroom instruction and learning platforms.",
+      "Explores content organization, navigation, and student-facing workflow design.",
+      "Shows how domain expertise in education can inform product and interface decisions.",
     ],
     githubUrl: "https://github.com/cjohanson64-netizen/LMS-Software-Demo",
     liveUrl: "",
@@ -123,17 +134,19 @@ const projects = [
     featured: false,
     status: "In Progress",
     year: "2026",
-    tagline: "A music analysis tool exploring structured systems and deterministic AI workflows.",
+    tagline:
+      "A music analysis application built around structured interpretation and deterministic AI workflows.",
     shortDescription:
-      "An in-progress music analysis app focused on structured interpretation of musical data, semantic modeling, and deterministic AI-driven analysis workflows.",
+      "ScoreLens is an in-progress music analysis tool focused on interpreting musical data through structured logic, semantic modeling, and deterministic AI-assisted workflows rather than purely generative output.",
     techStack: ["React", "JavaScript", "MusicXML", "TAT", "CSS"],
     highlights: [
-      "Explores deterministic AI behavior rather than purely generative output.",
-      "Uses structured graph logic to model musical meaning and interaction.",
-      "Represents a deeper technical evolution of classroom-informed music tooling.",
+      "Explores deterministic AI behavior instead of relying solely on generative output.",
+      "Uses structured graph logic to model musical meaning, analysis, and interaction.",
+      "Extends classroom-informed music tooling into deeper technical and analytical workflows.",
     ],
     githubUrl: "https://github.com/cjohanson64-netizen/ScoreLens",
-    liveUrl: "https://score-lens-git-main-cjohanson64-3345s-projects.vercel.app/",
+    liveUrl:
+      "https://score-lens-git-main-cjohanson64-3345s-projects.vercel.app/",
     image: "/images/projects/scorelens.png",
     alt: "ScoreLens interface showing music score analysis panels and overlays.",
   },

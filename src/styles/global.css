@@ -46,6 +46,12 @@ textarea {
   font: inherit;
 }
 
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 /* ===== Layout ===== */
 
 .site-shell {
@@ -214,6 +220,11 @@ textarea {
 .page h1 {
   margin: 0;
   font-size: 2rem;
+  line-height: 1.2;
+}
+
+.page h2 {
+  margin: 0;
   line-height: 1.2;
 }
 
