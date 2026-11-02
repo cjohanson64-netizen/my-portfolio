@@ -1,18 +1,34 @@
-# React + Vite
+# Carl Biggers-Johanson — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite portfolio featuring instructional design, learning technology,
+curriculum-focused projects, and software engineering work.
 
-Currently, two official plugins are available:
+## Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `npm install`
+- `npm run dev`
+- `npm run build`
+- `npm run lint`
 
-## React Compiler
+The application uses React Router and static project and resume data under
+`src/data/`. Content updates do not require a backend.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Key pages
 
-Note: This will impact Vite dev & build performances.
+- `/` — learning experience design introduction and featured work
+- `/projects` — portfolio with learning-focused projects first
+- `/projects/sightline` — SightLine instructional design case study
+- `/about` — experience and approach
+- `/resume` — online resume, with print/save-as-PDF support
 
-## Expanding the ESLint configuration
+## Editorial checks before publishing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Confirm Podium role title, dates, and resume bullet wording.
+- Confirm the 300+ student / three-to-eight ensemble experience details.
+- Test the SightLine demo and case study on desktop and mobile.
+- Review any older static resume PDF at `public/resume.pdf`; the updated
+  resume page now offers print/save-as-PDF rather than linking to that file.
+- Validate any claims about learning impact with evidence before adding them.
+
+This portfolio intentionally distinguishes a working instructional prototype
+from measured learning outcomes.

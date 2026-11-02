@@ -1,18 +1,20 @@
 const projects = [
   {
     id: "sightline",
+    portfolioPriority: 1,
+    caseStudyUrl: "/projects/sightline",
     title: "SightLine",
     slug: "sightline",
-    category: "Educational Apps",
+    category: "Learning Experience Design",
     featured: true,
     status: "In Progress",
     year: "2026",
 
     tagline:
-      "An interactive sight-singing platform for generation, practice, and real-time feedback.",
+      "Concept-aligned sight-singing practice and assessment, designed by a music educator.",
 
     shortDescription:
-      "SightLine is a full-stack music learning application that generates targeted sight-singing exercises, captures student performance via microphone input, and provides structured feedback through pitch detection and scoring. It helps teachers reduce prep time while enabling students to practice and improve independently.",
+      "Designed around a classroom learning need, SightLine generates concept-focused sight-singing practice, captures performances through microphone input, and provides pitch-based assessment feedback. The working prototype brings curriculum design, guided practice, and technology together in one learning experience.",
 
     techStack: ["React", "Vite", "JavaScript", "CSS", "Supabase"],
 
@@ -33,7 +35,7 @@ const projects = [
     title: "TryAngleTree DSL",
     slug: "tryangletree-dsl",
     category: "AI / Structured Systems",
-    featured: true,
+    featured: false,
     status: "In Progress",
     year: "2026",
     tagline:
@@ -62,7 +64,7 @@ const projects = [
     title: "PredictivePantry",
     slug: "predictive-pantry",
     category: "AI / Structured Systems",
-    featured: true,
+    featured: false,
     status: "Prototype",
     year: "2026",
     tagline:
@@ -105,16 +107,17 @@ const projects = [
   },
   {
     id: "lms-demo",
+    portfolioPriority: 2,
     title: "LMSDemo",
     slug: "lms-demo",
-    category: "Educational Apps",
-    featured: false,
+    category: "Learning Experience Design",
+    featured: true,
     status: "Prototype",
     year: "2026",
     tagline:
       "A lightweight learning management system focused on structured content and clear user flow.",
     shortDescription:
-      "LMSDemo is a simplified learning management system built to demonstrate structured content delivery, educational UX, and user-facing workflows that support clear navigation and learning progression.",
+      "A learning management system prototype exploring how content organization, student-facing navigation, and clear learning pathways shape the experience of using an educational platform.",
     techStack: ["React", "JavaScript", "CSS", "Educational UX"],
     highlights: [
       "Built from direct experience with classroom instruction and learning platforms.",
@@ -128,16 +131,17 @@ const projects = [
   },
   {
     id: "scorelens",
+    portfolioPriority: 3,
     title: "ScoreLens",
     slug: "scorelens",
-    category: "Music Tools",
-    featured: false,
+    category: "Educational Technology",
+    featured: true,
     status: "In Progress",
     year: "2026",
     tagline:
       "A music analysis application built around structured interpretation and deterministic AI workflows.",
     shortDescription:
-      "ScoreLens is an in-progress music analysis tool focused on interpreting musical data through structured logic, semantic modeling, and deterministic AI-assisted workflows rather than purely generative output.",
+      "An in-progress music analysis tool exploring how structured interpretations of musical scores can make complex musical information easier to inspect and understand.",
     techStack: ["React", "JavaScript", "MusicXML", "TAT", "CSS"],
     highlights: [
       "Explores deterministic AI behavior instead of relying solely on generative output.",

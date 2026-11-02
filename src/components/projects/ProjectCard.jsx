@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ProjectCard({ project }) {
   const {
     title,
@@ -10,6 +12,7 @@ export default function ProjectCard({ project }) {
     highlights,
     githubUrl,
     liveUrl,
+    caseStudyUrl,
     image,
     alt,
   } = project;
@@ -49,6 +52,11 @@ export default function ProjectCard({ project }) {
         )}
 
         <div className="project-card-links">
+          {caseStudyUrl ? (
+            <Link className="button" to={caseStudyUrl}>
+              Read Case Study
+            </Link>
+          ) : null}
           {githubUrl ? (
             <a
               className="button button-secondary"

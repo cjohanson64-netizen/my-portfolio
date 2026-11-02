@@ -48,7 +48,7 @@ export default function HomePage() {
       <section className="strengths-section">
         <div className="section-heading">
           <p className="section-eyebrow">Strengths</p>
-          <h2>What I bring to software work</h2>
+          <h2>What I bring to learning design</h2>
         </div>
 
         <div className="strengths-grid">

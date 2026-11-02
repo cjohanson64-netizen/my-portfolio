@@ -8,7 +8,7 @@ export default function FeaturedProjects() {
     <section className="featured-projects">
       <div className="section-heading">
         <p className="section-eyebrow">Featured Work</p>
-        <h2>Projects that best represent how I think and build</h2>
+        <h2>Featured learning and design projects</h2>
       </div>
 
       <div className="project-grid">

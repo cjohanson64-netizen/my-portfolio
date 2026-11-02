@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="site-footer-copy">
           <h2 className="site-footer-name">Carl Biggers-Johanson</h2>
           <p className="site-footer-description">
-            Software engineer building learning tools, interactive apps, and
-            structured systems.
+            Educator and learning experience developer creating curriculum,
+            interactive learning tools, and thoughtful software.
           </p>
         </div>
 

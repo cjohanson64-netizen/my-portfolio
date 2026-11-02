@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ResumePage from "../pages/ResumePage";
 import ProjectsPage from "../pages/ProjectsPage";
+import SightLineCaseStudyPage from "../pages/SightLineCaseStudyPage";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: "about", element: <AboutPage /> },
       { path: "resume", element: <ResumePage /> },
       { path: "projects", element: <ProjectsPage /> },
+      { path: "projects/sightline", element: <SightLineCaseStudyPage /> },
     ],
   },
 ]);

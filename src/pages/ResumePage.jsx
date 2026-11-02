@@ -6,7 +6,6 @@ export default function ResumePage() {
     heading,
     intro,
     identity,
-    download,
     summary,
     skillGroups,
     projects,
@@ -48,14 +47,9 @@ export default function ResumePage() {
             </section>
 
             <div className="resume-actions">
-              <a
-                className="button"
-                href={download.href}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {download.label}
-              </a>
+              <button className="button" type="button" onClick={() => window.print()}>
+                Print / Save as PDF
+              </button>
             </div>
           </div>
 
@@ -78,7 +72,7 @@ export default function ResumePage() {
         </section>
 
         <section className="resume-section">
-          <h2>Technical Skills</h2>
+          <h2>Instructional Design & Technical Skills</h2>
           <div className="resume-skill-groups">
             {skillGroups.map((group) => (
               <article key={group.title} className="resume-skill-group glass">
@@ -96,7 +90,7 @@ export default function ResumePage() {
         </section>
 
         <section className="resume-section">
-          <h2>Engineering Projects</h2>
+          <h2>Selected Learning & Technology Projects</h2>
           <div className="resume-entry-list">
             {projects.map((project) => (
               <article key={project.title} className="resume-entry glass">
