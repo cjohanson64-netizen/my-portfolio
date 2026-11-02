@@ -225,3 +225,103 @@
     justify-content: flex-end;
   }
 }
+
+/* Present the web resume as a clean, printable document. */
+@media print {
+  @page {
+    size: letter;
+    margin: 0.55in;
+  }
+
+  body,
+  .site-shell {
+    color: #1a1a1a !important;
+    background: white !important;
+  }
+
+  .site-header,
+  .site-footer,
+  .resume-actions,
+  .resume-profile-shell {
+    display: none !important;
+  }
+
+  .site-main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page-resume,
+  .resume-panel,
+  .resume-top,
+  .resume-section,
+  .resume-entry-list,
+  .resume-skill-groups {
+    display: block;
+  }
+
+  .resume-panel,
+  .resume-entry,
+  .resume-skill-group {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent !important;
+    break-inside: avoid;
+  }
+
+  .resume-panel,
+  .resume-section {
+    gap: 0.4rem;
+  }
+
+  .resume-section,
+  .resume-entry {
+    margin-top: 0.65rem;
+  }
+
+  .page-resume p,
+  .page-resume li,
+  .page-resume a,
+  .page-resume h1,
+  .page-resume h2,
+  .page-resume h3,
+  .page-resume span {
+    color: #1a1a1a !important;
+  }
+
+  .resume-identity h2 {
+    margin-bottom: 0.1rem;
+  }
+
+  .resume-skill-group {
+    margin-top: 0.5rem;
+  }
+
+  .resume-skill-item {
+    padding: 0;
+    margin-right: 0.35rem;
+    border: 0;
+    background: transparent;
+  }
+
+  .resume-list,
+  .resume-skill-list {
+    font-size: 10pt;
+  }
+
+  .resume-top-copy,
+  .resume-panel {
+    gap: 0.45rem;
+  }
+
+  .resume-entry-header {
+    margin-bottom: 0.3rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

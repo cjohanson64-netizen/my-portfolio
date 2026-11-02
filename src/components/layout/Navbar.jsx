@@ -16,9 +16,9 @@ export default function Navbar() {
       <nav className="site-nav" aria-label="Primary">
         <div className="site-nav-brand">
           <NavLink to="/" className="site-logo">
-            Carl Johanson
+            Carl Biggers-Johanson
           </NavLink>
-          <p className="site-tagline">Software Engineer · Systems · Automation</p>
+          <p className="site-tagline">Learning Experience Design · Curriculum · Technology</p>
         </div>
 
         <div className="site-nav-right">

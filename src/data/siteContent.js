@@ -6,12 +6,11 @@ const siteContent = {
 
   hero: {
     eyebrow: "Carl Biggers-Johanson",
-    title:
-      "Frontend-leaning full-stack engineer building polished, user-facing products",
+    title: "I design learning experiences and build the tools that bring them to life.",
     description:
-      "I build applications that translate complex workflows into clear, intuitive user experiences. My work spans React frontends, backend services, and structured systems designed for usability, reliability, and rapid iteration.",
+      "Instructional designer and learning experience developer with 11 years of classroom teaching, curriculum design expertise, and hands-on software development experience. I create thoughtful learning materials, interactive practice, and useful feedback that help people grow.",
     primaryCta: {
-      label: "View Projects",
+      label: "Explore Learning Projects",
       href: "/projects",
     },
     secondaryCta: {
@@ -21,47 +20,47 @@ const siteContent = {
   },
 
   homeIntro: {
-    heading: "How I build",
+    heading: "Where education meets technology",
     paragraphs: [
-      "I design software by turning complex workflows into structured, maintainable products that people can actually use. My work spans frontend interfaces, backend services, and the architecture that connects them.",
-      "Before transitioning into software, I spent 12 years in education designing curriculum and learning systems. That experience sharpened the instincts I bring to engineering today: clarity, iteration, communication, and building tools that serve real users in real conditions.",
+      "My work starts with a learning need: what should someone understand, practice, or be able to do? From there, I design content, activities, and feedback that make the learning experience clear and purposeful.",
+      "I taught music for 11 school years, creating curriculum and instructional resources for learners with different backgrounds and skill levels. Today I also build software with React, JavaScript, and related tools—bringing instructional ideas into working interactive experiences.",
     ],
   },
 
   strengths: [
     {
-      title: "Product-minded systems thinking",
+      title: "Curriculum & learning design",
       description:
-        "I design applications with clear structure, strong boundaries, and maintainable logic so they stay understandable as features grow.",
+        "I turn learning objectives into coherent lessons, activities, practice materials, and assessments that support skill development.",
     },
     {
-      title: "User-centered engineering",
+      title: "Learner-centered design",
       description:
-        "I focus on building software that is not just functional, but intuitive, usable, and aligned with the needs of the people using it.",
+        "I design with real learners in mind, using clear progression, approachable interfaces, and actionable feedback.",
     },
     {
-      title: "End-to-end development",
+      title: "Interactive learning technology",
       description:
-        "I enjoy building complete product flows, from responsive frontend interfaces to backend services, application logic, and data modeling.",
+        "I can both design a learning experience and build the software behind it, from user interfaces to assessment logic.",
     },
     {
-      title: "Iterative execution",
+      title: "Iteration & evaluation",
       description:
-        "I work through observation, feedback, and refinement, using fast iteration to improve both the product experience and the systems underneath it.",
+        "I refine experiences through observation, testing, and feedback, while distinguishing design intent from measured outcomes.",
     },
   ],
 
   about: {
     heading: "About Me",
     intro:
-      "I’m a frontend-leaning full-stack engineer with a background in education, learning systems, and interactive product design.",
+      "I'm an educator, curriculum designer, and software developer who enjoys creating materials and tools that help people learn.",
     paragraphs: [
-      "My path into software began by building tools to solve practical problems in teaching and learning. Over time, that grew into a deeper focus on product engineering, application architecture, and the systems that support reliable user experiences.",
-      "I’m especially interested in building software that makes complexity feel clear. That includes designing frontend experiences, shaping backend logic, and creating structure that keeps applications scalable and maintainable over time.",
-      "My years in education continue to strengthen my engineering work. They taught me how to communicate clearly, iterate quickly, design for real users, and build systems that hold up under real-world conditions.",
+      "During 11 years teaching music in public schools, one of the parts of the job I loved most was designing instructional resources: finding ways to make difficult concepts accessible, creating engaging practice, and helping students develop confidence and skill.",
+      "That creative drive led me into software development. Projects like SightLine combine my music education background with interactive practice, automated exercise generation, and assessment feedback.",
+      "I bring an educator's understanding of learning, a designer's attention to the experience, and a developer's ability to turn ideas into functioning tools.",
     ],
     currentFocus:
-      "Right now, I’m focused on building full-stack and frontend-heavy applications while pursuing software engineering opportunities where I can contribute strong product thinking, structured development, and a user-centered approach to complex systems.",
+      "I'm pursuing instructional design, curriculum development, and learning experience development roles where I can create effective learning materials and contribute to a thoughtful, sustainable team.",
   },
 
   contact: {
